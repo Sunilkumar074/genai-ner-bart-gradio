@@ -85,7 +85,7 @@ demo = gr.Interface(
     description="Find named entities using the dslim/bert-base-NER model via Hugging Face Inference API.",
     allow_flagging="never",
     examples=[
-        "My name is Sunil, I work at DeepLearningAI and live in Chennai.",
+        "My name is SK, I work at DeepLearningAI and live in Chennai.",
         "Rohit lives in Chennai and works at HuggingFace."
     ]
 )
@@ -94,7 +94,7 @@ demo.launch(share=True, server_port=int(os.environ.get("PORT3", 7860)))
 ```
 
 ### OUTPUT:
-![WhatsApp Image 2025-10-31 at 11 38 42 AM](https://github.com/user-attachments/assets/9e3f5310-8f2e-4fe2-8bf7-cb31a4f3f45c)
+<img width="1255" height="507" alt="Screenshot 2025-10-31 115340" src="https://github.com/user-attachments/assets/cc255ecb-bcdb-4e5b-abf8-dbc0e390160e" />
 
 
 ### RESULT:
